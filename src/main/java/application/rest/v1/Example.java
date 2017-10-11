@@ -15,7 +15,7 @@ public class Example {
 
     @GET
     public String greet() throws Exception {
-    	return "Hello from " + java.net.InetAddress.getLocalHost().getHostName();
+    	return "Hello from Sandra " + java.net.InetAddress.getLocalHost().getHostName();
             }
 
 }
